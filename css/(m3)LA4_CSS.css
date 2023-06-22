@@ -1,0 +1,25 @@
+html{
+  font-family: San-serif;
+	}
+	body {
+  	background-color:#95B9C7;
+	}
+	table {
+	border-collapse: collapse;
+    width:"100%";
+	border: 2px solid rgb(200,200,200);
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+    }
+    th{
+	background-color:#95B9C7;
+ 	color: #0C090A;
+	}
+	td, th {
+	border: 1px solid rgb(190,190,190);
+	padding: 10px 20px;
+	text-align: center;
+	}
+	caption {
+	padding: 10px;
+	}

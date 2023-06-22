@@ -1,0 +1,18 @@
+body{
+background-color: #FFFACD;
+}
+
+table {
+ border-collapse: collapse;
+ border: 10px solid rgb(200,200,200);
+ letter-spacing: 1px;
+ font-size: 0.8rem;
+ color: 28b5b5;
+}
+td, th {
+ border: 1px solid rgb(190,190,190);
+ padding: 10px 20px;
+}
+h1{
+  color: #EE9A4D;
+}
