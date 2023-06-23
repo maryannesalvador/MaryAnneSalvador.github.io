@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+ <head>
+<meta charset="utf-8">
+  <title>Land Of Boxes Form</title>
+ </head>
+
+  <h1>Learning Activity 5</h1>
+
+ <body>
+  <form action="/action_page.php">
+  <fieldset>
+
+ <table>
+  <tr>
+   <td>Name:</td>
+   <td><input type="text" name="name" size="35" value=""></td>
+  </tr>
+  <tr>
+   <td>Email:</td>
+   <td><input type="text" name="email" size="35" value=""></td>
+  </tr>
+  <tr>
+   <td>Address:</td>
+   <td><textarea name="textfield3" colspan="25" rowspan="5"  style="overflow-y: scroll;">
+   </textarea></td>
+  </tr>
+  <tr>
+   <td align"right">Postcode:</td>
+   <td><input type="text" name="postcode" size="20" value=""></td>
+  </tr>
+  </table><br><br>
+  <table border=1>
+  <tr>
+   <td><b>Product</b></td>
+   <td><b>Part Number</b></td>
+   <td><b>Quantity</b></td>
+   <td><b>Unit Price</b></td>
+   <td><b>Subtotal</b></td>
+  </tr>
+  <tr>
+   <td>EconoBox</td>
+   <td>LB100</td>
+   <td><input type="text" name="Qlb100" size="8" value=""></td>
+   <td>R5</td>
+   <td><input type="text" name="Sublb100" size="15" value=""></td>
+  </tr>
+  <tr>
+   <td>Standard Box</td>
+   <td>LB200</td>
+   <td><input type="text" name="Qlb200" size="8" value=""></td>
+   <td>R10</td>
+   <td><input type="text" name="Sublb200" size="15" value=""></td>
+  </tr>
+  <tr>
+   <td>Premium Box/TD></td>
+   <td>LB300</td>
+   <td><input type="text" name="Qlb300" size="8" value=""></td>
+   <td>R15</td>
+   <td><input type="text" name="Sublb300" size="15" value=""></td>
+  </tr>
+  <tr>
+   <td>Deluxe Box/TD></td>
+   <td>LB400</td>
+   <td><input type="text" name="Qlb400" size="8" value=""></td>
+   <td>R20</td>
+   <td><input type="text" name="Sublb400" size="15" value=""></td>
+  </tr>
+  <tr>
+   <td>Super Deluxe Box/TD></td>
+   <td>LB500</td>
+   <td><input type="text" name="Qlb500" size="8" value=""></td>
+   <td>R30</td>
+   <td><input type="text" name="Sublb500" size="15" value=""></td>
+  </tr>
+  <tr>
+   <td colspan="5" align="right">
+   Total: <input type="text" name="total" size="15" value=""></td>
+  </tr>
+  </table><br><br>
+   <th>Credit Card Details</th><br>
+  <table>
+  <tr>
+   <td>Card Type:</td>
+  </tr>
+  <tr>
+   <td><input type="radio" name="cardmake" value="master">Mastercard</td>
+   <td>Card Number:</td>
+   <td><input type="text" name="cardnumber" size="20" value=""></td>
+  </tr>
+  <tr>
+   <td><INPUT type="radio" name="cardmake" value="visa">Visa</td>
+   <td>Expiry date:</td>
+   <td><input type="text" name="expiry" size="10" maxlength="5" value=""></td>
+   </tr>
+   <tr>
+    <td><input type="radio" name="cardmake" value="amex">American Express</td>
+   </tr>
+   <tr>
+    <td><input type="radio" name="cardmake" value="diners">Diners Club</td>
+   </tr>
+   </table><br><br>
+  <table>
+  <tr>
+   <th>Delivery Address:</th>
+<td><textarea name="textfield3" colspan="25" rowspan="5"  style="overflow-y: scroll;">
+   </textarea></td>
+   </tr>
+   </table>
+    <input type="submit" name="submit" value="Send order">
+    <input type="reset" name="reset" value="Clear form">
+  </form>
+<a href="index.html"> back </a>
+  </body>
